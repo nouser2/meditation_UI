@@ -1,0 +1,142 @@
+name: meditation_screens
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  font_awesome_flutter: ^10.3.0
+  flutter_svg: ^2.0.0+1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib\assets\choose_topics\reduce_stress\girl.svg
+    - lib/assets/choose_topics/choose_topic_background.svg
+    - lib/assets/course_details/
+    - lib/assets/home/basicsLogo.svg
+    - lib/assets/home/dailybackground.svg
+    - lib/assets/home/focusBackground.svg
+    - lib/assets/home/happinessBackground.svg
+    - lib/assets/home/happyMorningBackground.svg
+    - lib/assets/home/
+    - lib/assets/meditation/
+    - lib/assets/musicv2/
+    - lib/assets/reminder/numbers/
+    - lib/assets/signIn/
+    - lib/assets/signUp/
+    - lib/assets/signUp_and_signIn/
+    - lib/assets/sleep/
+    - lib/assets/sleep/music/
+    - lib/assets/sleep/play_detail/
+    - lib/assets/sleep/sleep2/
+    - lib/assets/sleep/welcome/
+    - lib/assets/welcome/
+    - lib/assets/common_asset/
+    - lib/screens/home_screen/value_files/value_file.json
+ 
+    
+  
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: HelveticaNeuemedium
+      fonts:
+        - asset: lib/assets/fonts/HelveticaNeue_medium.ttf
+    - family: HelveticaNeuebold 
+      fonts:
+        - asset: lib/assets/fonts/HelveticaNeue_bold.ttf     
+    - family: HelveticaNeuethin 
+      fonts:
+        - asset: lib/assets/fonts/HelveticaNeue_thin.ttf
+    - family: HelveticaNeuelight
+      fonts:
+        - asset: lib/assets/fonts/HelveticaNeue_light.ttf
+    - family: Sveningsson 
+      fonts:
+        - asset: lib/assets/fonts/Sveningsson_regular.ttf
+    - family: Gilroy 
+      fonts:
+        - asset: lib/assets/fonts/Gilroy_semibold.ttf
+    - family: Gilroybold 
+      fonts:
+        - asset: lib/assets/fonts/Gilroy_bold.ttf    
+    - family: Garamond_premier_pro 
+      fonts:
+        - asset: lib/assets/fonts/Garamond_premier_pro_semibold.ttf
+    - family: AirbnbCereal 
+      fonts:
+        - asset: lib/assets/fonts/AirbnbCerealBold.ttf
+          
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

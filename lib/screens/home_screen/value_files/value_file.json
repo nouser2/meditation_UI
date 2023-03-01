@@ -1,0 +1,26 @@
+[
+    {
+        "backGroundColor": "0xFF8E97FD",
+        "mainTitle": "Basics",
+        "mainTitleColor": "0xFFFFECCC",
+        "subTitleColor": "0xFFF7E8D0",
+        "subtitle": "COURSE",
+        "imageLink": "lib/assets/home/basicsLogo.svg",
+        "time": "3-10 MIN",
+        "timeTextColor": "0xFFEBEAEC",
+        "startButtonColor": "0xFF3F414E",
+        "startButtonfillColor": "0xFFEBEAEC"
+    },
+    {
+        "backGroundColor": "0xFFFFDB9D",
+        "mainTitle": "Relaxation",
+        "mainTitleColor": "0xFF3F414E",
+        "subTitleColor": "0xFF524F53",
+        "subtitle": "MUSIC",
+        "imageLink": "lib/assets/home/relaxationLogo.svg",
+        "time": "3-10 MIN",
+        "timeTextColor": "0xFF524F53",
+        "startButtonColor": "0xFFFEFFFE",
+        "startButtonfillColor": "0xFF3F414E"
+    }
+]
